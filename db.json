@@ -1,0 +1,8 @@
+{
+    "motores": [
+      { "id": 1, "modelo": "Motor A", "cv": 100, "rpm": 1500, "posicao": "Vertical" },
+      { "id": 2, "modelo": "Motor B", "cv": 150, "rpm": 1800, "posicao": "Horizontal" },
+      { "id": 3, "modelo": "Motor C", "cv": 120, "rpm": 1600, "posicao": "Inclinada" }
+    ]
+  }
+  
