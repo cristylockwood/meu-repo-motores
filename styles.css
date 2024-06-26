@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#form-container {
+    margin-bottom: 20px;
+}
+
+label, select, input[type="number"], input[type="text"], button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#lista-motores {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+#motores {
+    list-style-type: none;
+    padding: 0;
+}
+
+#motores li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+#motores li:last-child {
+    border-bottom: none;
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
